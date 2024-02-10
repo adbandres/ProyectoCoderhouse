@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+header {
+    background-color: rgb(249, 205, 211);
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    font-family: 'Instrument Serif', serif;
+}
+.img_logo {
+    text-align: center; 
+}
+
+.menu {
+    list-style: none;
+    text-align: center;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu li a {
+   text-decoration: none; 
+   padding: 20px;
+   color: blueviolet;
+}
+.menu li a:hover{
+    color: black;
+}
+
+
+.carrito-usuario {
+    text-align: end;
+}
+.imagen_principal {
+    width: 10px;
+}
