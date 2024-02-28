@@ -1,0 +1,20 @@
+@mixin sizes($width, $height) {
+    width: $width;
+    height: $height;
+}
+.img_catalogo {
+    @include sizes(300px, 150px)
+}
+.img_catalogo:hover{
+    transform: scale(1.15);
+    transition: all 0.7s;
+}
+.nombre_producto {
+    align-self: center;
+    text-align: center;
+    padding: 1rem;
+}
+.seccion_productos {
+    min-height: 300px;
+    padding: 5rem;
+}

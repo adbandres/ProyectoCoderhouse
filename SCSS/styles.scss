@@ -1,7 +1,12 @@
 @import "_variables.scss";
 @import "_footer.scss";
 @import "_navbar.scss";
-@import "_header";
+@import "_header.scss";
+@import "_nosotros.scss";
+@import "_order_online.scss";
+@import "_catalogo.scss";
+@import "_contacto.scss";
+
 
 * {
     box-sizing: border-box;
@@ -92,44 +97,6 @@ h2 {
     text-align: center;
 }
 
-.seccion1_nosotros {
-    background-color: map-get($paletaDeColores, violetaMedio);
-    width: 100%;
-    display: flex;
-    box-sizing: border-box;
-    flex-direction: column;
-    align-items: center;
-    padding: 34px;
-}
-.titulo_nosotros {
-margin-top: 0;
-margin-bottom: 0.5rem;
-font-weight: 500;
-line-height: 1.2;
-color: map-get($paletaDeColores, blanco);
-
-}
-
-@mixin sizes($width, $height) {
-    width: $width;
-    height: $height;
-}
-.img_catalogo {
-    @include sizes(300px, 150px)
-}
-.img_catalogo:hover{
-    transform: scale(1.15);
-    transition: all 0.7s;
-}
-.nombre_producto {
-    align-self: center;
-    text-align: center;
-    padding: 1rem;
-}
-.seccion_productos {
-    min-height: 300px;
-    padding: 5rem;
-}
 .seccion_h1 {
     background-color: map-get($paletaDeColores, violetaMedio);
     width: 100%;
@@ -148,6 +115,5 @@ font-style: italic;
 color: map-get($paletaDeColores, blanco);
 }
 
-.order_online {
-    height: 400px;
-}
+
+

@@ -65,6 +65,62 @@ header {
   min-height: 200px;
 }
 
+.seccion1_nosotros {
+  background-color: #9657A2;
+  width: 100%;
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: center;
+  padding: 34px;
+}
+
+.titulo_nosotros {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #FFFFFF;
+}
+
+.card_order {
+  width: 297px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.order_online {
+  height: 600px;
+}
+
+.img_catalogo {
+  width: 300px;
+  height: 150px;
+}
+
+.img_catalogo:hover {
+  transform: scale(1.15);
+  transition: all 0.7s;
+}
+
+.nombre_producto {
+  align-self: center;
+  text-align: center;
+  padding: 1rem;
+}
+
+.seccion_productos {
+  min-height: 300px;
+  padding: 5rem;
+}
+
+.contacto {
+  height: 600px;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -167,45 +223,6 @@ h2 {
   text-align: center;
 }
 
-.seccion1_nosotros {
-  background-color: #9657A2;
-  width: 100%;
-  display: flex;
-  box-sizing: border-box;
-  flex-direction: column;
-  align-items: center;
-  padding: 34px;
-}
-
-.titulo_nosotros {
-  margin-top: 0;
-  margin-bottom: 0.5rem;
-  font-weight: 500;
-  line-height: 1.2;
-  color: #FFFFFF;
-}
-
-.img_catalogo {
-  width: 300px;
-  height: 150px;
-}
-
-.img_catalogo:hover {
-  transform: scale(1.15);
-  transition: all 0.7s;
-}
-
-.nombre_producto {
-  align-self: center;
-  text-align: center;
-  padding: 1rem;
-}
-
-.seccion_productos {
-  min-height: 300px;
-  padding: 5rem;
-}
-
 .seccion_h1 {
   background-color: #9657A2;
   width: 100%;
@@ -223,10 +240,6 @@ h2 {
   line-height: 1.2;
   font-style: italic;
   color: #FFFFFF;
-}
-
-.order_online {
-  height: 400px;
 }
 
 /*# sourceMappingURL=styles.css.map */

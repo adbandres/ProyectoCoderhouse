@@ -1,0 +1,16 @@
+.seccion1_nosotros {
+    background-color: map-get($paletaDeColores, violetaMedio);
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: center;
+    padding: 34px;
+}
+.titulo_nosotros {
+margin-top: 0;
+margin-bottom: 0.5rem;
+font-weight: 500;
+line-height: 1.2;
+color: map-get($paletaDeColores, blanco);
+}
