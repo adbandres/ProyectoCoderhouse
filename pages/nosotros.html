@@ -1,107 +1,250 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../css/estilo.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Aca encontrarás información sobre quienes somos, que nos inspira a crear nuestros deliciosos postres y nuestros valores"
+    />
+    <meta
+      name="keywords"
+      content="Postres, cheesecakes, galletas, tortas, brownies, helados, cupcakes "
+    />
+    <link rel="shortcut icon" href="../images/logo_favicon.png" />
+    <link rel="stylesheet" type="text/css" href="../css/styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
     <title>DOCE</title>
-</head>
-<body>
-    <header> 
-        <nav class="navbar navbar-expand-md fixed-top bg-color">
-            <div class="container-fluid">
-                      <a class="navbar-brand" href="../index.html">
-                        <img src="../images/logo_doce_1.png" alt="LogoDoce" width="200" height="200">
-                      </a>
-                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-                        <span class="navbar-toggler-icon"></span>
-                      </button>
-                
-              <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="nosotros.html">Nosotros</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" href="order_online.html">Order Online</a>
-                    <!-- WORK IN PROGRESS -->
-                    <!-- <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Retiro en Tienda</a></li>
-                        <li><a class="dropdown-item" href="#">Delivery</a></li>
-                      </ul> -->
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" href="catalogo.html">
-                      Catálogo
-                    </a>
-                    <!-- WORK IN PROGRESS -->
-                    <!-- <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Cheesecakes</a></li>
-                      <li><a class="dropdown-item" href="#">Tortas</a></li>
-                      <li><a class="dropdown-item" href="#">Cookies & Brownies</a></li>
-                      <li><a class="dropdown-item" href="#">Helados & Postres Frios</a></li>
-                    </ul> -->
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" href="contacto.html">Contacto</a>
-                  </li>
-                </ul>
-                <div class="d-flex">
-                    <img src="../images/carro_compra.png" alt="Carro_compra" width="50px">
-                    <img src="../images/usuario.png" alt="Usuario" width="50px">
-                </div>
-              </div>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-md fixed-top bg-color">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">
+            <img
+              src="../images/logo_doce_1.png"
+              alt="LogoDoce"
+              width="200"
+              height="200"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapsibleNavbar"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="./nosotros.html"
+                  >Nosotros</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./order_online.html">Order Online</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./catalogo.html"> Catálogo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contacto.html">Contacto</a>
+              </li>
+            </ul>
+            <div class="d-flex">
+              <img
+                src="../images/carro_compra.png"
+                alt="Carro_compra"
+                width="50px"
+              />
+              <img src="../images/usuario.png" alt="Usuario" width="50px" />
             </div>
-        </nav>
-</header>
+          </div>
+        </div>
+      </nav>
+    </header>
     <main>
-        <section>
-            <img src="../images/nosotros_1.jpg" alt="">
-        </section>
-        <section>
-            <h2>TEXTO</h2>
-        </section>
-        <section>
-            <img src="../images/nosotros_2.jpg" alt="">
-        </section>
-        <section>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque nemo aperiam iste debitis veniam aspernatur vel rem voluptas ducimus dolorum, accusantium molestiae deserunt, consectetur sequi ex eum error quaerat aliquid.</p>
-        </section>
-        <section>
-            <h2>TRABAJA CON NOSOTROS</h2>
-        </section>
+      <section class="seccion1_nosotros">
+        <h2 class="titulo_nosotros">NOSOTROS</h2>
+      </section>
+      <section class="seccion2_nosotros row py-5">
+        <div class="col-12 col-sm-6 text-center">
+          <img src="../images/nosotros_1.jpg" alt="" width="500px" />
+        </div>
+        <div class="col-12 col-sm-6">
+          <h3>Nuestra historia</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
+            tempora nisi quos mollitia assumenda cumque consequuntur labore
+            delectus hic, dolores maxime! Incidunt quod natus enim dignissimos,
+            cum molestiae amet at magni sapiente, vero dolores. Accusamus
+            blanditiis omnis ad ipsa iure laborum reprehenderit nisi, unde ab
+            fugit nam asperiores hic! Vel.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
+            tempora nisi quos mollitia assumenda cumque consequuntur labore
+            delectus hic, dolores maxime! Incidunt quod natus enim dignissimos,
+            cum molestiae amet at magni sapiente, vero dolores. Accusamus
+            blanditiis omnis ad ipsa iure laborum reprehenderit nisi, unde ab
+            fugit nam asperiores hic! Vel.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
+            tempora nisi quos mollitia assumenda cumque consequuntur labore
+            delectus hic.
+          </p>
+        </div>
+      </section>
+      <section class="seccion3_nosotros row py-5 text-center">
+        <h3 class="col-12 pb-3">Nuestros valores</h3>
+        <div class="col-12 col-sm-4">
+          <h4>VALOR1</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae,
+            neque.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae,
+            neque.
+          </p>
+        </div>
+        <div class="col-12 col-sm-4">
+          <h4>VALOR2</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae,
+            neque.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae,
+            neque.
+          </p>
+        </div>
+        <div class="col-12 col-sm-4">
+          <h4>VALOR3</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae,
+            neque.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae,
+            neque.
+          </p>
+        </div>
+      </section>
+      <section class="seccion4_nosotros row py-5">
+        <img
+          src="../images/nosotros_2.jpg"
+          alt=""
+          height="150px"
+          width="100%"
+        />
+        <!-- Esta imagen sera cambiada para el proyecto final -->
+      </section>
+      <section class="seccion5_nosotros row py-5 text-center">
+        <h2>TRABAJA CON NOSOTROS</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur,
+          modi.
+        </p>
+      </section>
     </main>
-    <hr>
+    <hr />
     <footer class="footer">
       <div class="row">
         <div class="col-2">
-        <img src="../images/logo_doce_2.png" alt="logo_doce_2" width="100px">
-      </div>
-      <div class="icon_media col-10">
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
-          <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-          <path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z" />
-          <path d="M3 7l9 6l9 -6" />
-        </svg>
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
-          <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-          <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
-        </svg>
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
-          <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-          <path d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" />
-          <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
-          <path d="M16.5 7.5l0 .01" />
-        </svg>
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-x" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
-          <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-          <path d="M4 4l11.733 16h4.267l-11.733 -16z" />
-          <path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772" />
-        </svg>
-      </div>
+          <img
+            src="../images/logo_doce_2.png"
+            alt="logo_doce_2"
+            width="100px"
+          />
+        </div>
+        <div class="icon_media col-10">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="icon icon-tabler icon-tabler-mail"
+            width="44"
+            height="44"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="#2c3e50"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path
+              d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z"
+            />
+            <path d="M3 7l9 6l9 -6" />
+          </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="icon icon-tabler icon-tabler-brand-facebook"
+            width="44"
+            height="44"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="#2c3e50"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path
+              d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3"
+            />
+          </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="icon icon-tabler icon-tabler-brand-instagram"
+            width="44"
+            height="44"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="#2c3e50"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path
+              d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z"
+            />
+            <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+            <path d="M16.5 7.5l0 .01" />
+          </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="icon icon-tabler icon-tabler-brand-x"
+            width="44"
+            height="44"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="#2c3e50"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M4 4l11.733 16h4.267l-11.733 -16z" />
+            <path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772" />
+          </svg>
+        </div>
       </div>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

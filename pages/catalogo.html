@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../css/estilo.css">
+    <meta name="description" content="Aca encontrarás nuestro catálogo de postres">
+    <meta name="keywords" content="Postres, cheesecakes, galletas, tortas, brownies, helados, cupcakes ">
+    <link rel="shortcut icon" href="../images/logo_favicon.png">
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <title>DOCE</title>
 </head>
@@ -21,30 +24,18 @@
               <div class="collapse navbar-collapse" id="collapsibleNavbar">
                 <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="nosotros.html">Nosotros</a>
+                    <a class="nav-link" aria-current="page" href="./nosotros.html">Nosotros</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" href="order_online.html">Order Online</a>
-                    <!-- WORK IN PROGRESS -->
-                    <!-- <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Retiro en Tienda</a></li>
-                        <li><a class="dropdown-item" href="#">Delivery</a></li>
-                      </ul> -->
+                    <a class="nav-link" href="./order_online.html">Order Online</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" href="catalogo.html">
+                    <a class="nav-link" href="./catalogo.html">
                       Catálogo
                     </a>
-                    <!-- WORK IN PROGRESS -->
-                    <!-- <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Cheesecakes</a></li>
-                      <li><a class="dropdown-item" href="#">Tortas</a></li>
-                      <li><a class="dropdown-item" href="#">Cookies & Brownies</a></li>
-                      <li><a class="dropdown-item" href="#">Helados & Postres Frios</a></li>
-                    </ul> -->
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" href="contacto.html">Contacto</a>
+                    <a class="nav-link" href="./contacto.html">Contacto</a>
                   </li>
                 </ul>
                 <div class="d-flex">
@@ -56,21 +47,50 @@
         </nav>
 </header>
     <main>
-        <section>
-            <img src="../images/nosotros_1.jpg" alt="">
-        </section>
-        <section>
-            <h2>TEXTO</h2>
-        </section>
-        <section>
-            <img src="../images/nosotros_2.jpg" alt="">
-        </section>
-        <section>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque nemo aperiam iste debitis veniam aspernatur vel rem voluptas ducimus dolorum, accusantium molestiae deserunt, consectetur sequi ex eum error quaerat aliquid.</p>
-        </section>
-        <section>
-            <h2>TRABAJA CON NOSOTROS</h2>
-        </section>
+
+      <section class="row seccion_productos">
+        <div class="col-12 col-sm-3 nombre_producto">
+          <h2>CHEESECAKES</h2>
+          <button class="btn btn-light">Ver todos</button>
+        </div>
+        <div class="col-12 col-sm-3 text-center px-4"><div><img src="../images/cheesecake.jpg" alt="imagen_de_cheesecake" class="img_catalogo"><h5 class="pt-3">Cheesecake1</h5></div></div>
+        <div class="col-12 col-sm-3 text-center px-4"><div><img src="../images/cheesecake.jpg" alt="imagen_de_cheesecake" class="img_catalogo"><h5 class="pt-3">Cheesecake2</h5></div></div>
+        <div class="col-12 col-sm-3  text-center px-4"><div><img src="../images/cheesecake.jpg" alt="imagen_de_cheesecake" class="img_catalogo"><h5 class="pt-3">Cheesecake3</h5></div></div>
+      </section>
+
+      <section class="row seccion_productos">
+        <div class="col-12 col-sm-3 text-center px-4"><div><img src="../images/torta.jpg" alt="imagen_de_torta" class="img_catalogo"><h5 class="pt-3">Torta1</h5></div></div>
+        <div class="col-12 col-sm-3 text-center px-4"><div><img src="../images/torta.jpg" alt="imagen_de_torta" class="img_catalogo"><h5 class="pt-3">Torta2</h5></div></div>
+        <div class="col-12 col-sm-3 text-center px-4"><div><img src="../images/torta.jpg" alt="imagen_de_torta" class="img_catalogo"><h5 class="pt-3">Torta3</h5></div></div>
+        <div class="col-12 col-sm-3 nombre_producto">
+          <h2>TORTAS</h2>
+          <button class="btn btn-light">Ver todos</button>
+        </div>
+      </section>
+
+      <section class="row seccion_productos">
+        <div class="col-12 col-sm-3 nombre_producto">
+          <h2>GALLETAS & BROWNIES</h2>
+          <button class="btn btn-light">Ver todos</button>
+        </div>
+        <div class="col-12 col-sm-3 text-center px-4"><div><img src="../images/galletas.jpg" alt="imagen_de_galleta" class="img_catalogo"><h5 class="pt-3">Brownie1</h5></div></div>
+        <div class="col-12 col-sm-3 text-center px-4"><div><img src="../images/galletas.jpg" alt="imagen_de_galleta" class="img_catalogo"><h5 class="pt-3">Brownie2</h5></div></div>
+        <div class="col-12 col-sm-3 text-center px-4"><div><img src="../images/galletas.jpg" alt="imagen_de_galleta" class="img_catalogo"><h5 class="pt-3">Brownie3</h5></div></div>
+      </section>
+
+      <section class="row seccion_productos">
+        <div class="col-12 col-sm-3 text-center px-4"><div><img src="../images/helado.jpg" alt="imagen_de_helado" class="img_catalogo"><h5 class="pt-3">Helado1</h5></div></div>
+        <div class="col-12 col-sm-3 text-center px-4"><div><img src="../images/helado.jpg" alt="imagen_de_helado" class="img_catalogo"><h5 class="pt-3">Helado2</h5></div></div>
+        <div class="col-12 col-sm-3 text-center px-4"><div><img src="../images/helado.jpg" alt="imagen_de_helado" class="img_catalogo"><h5 class="pt-3">Helado3</h5></div></div>
+        <div class="col-12 col-sm-3 nombre_producto">
+          <h2>HELADOS & POSTRES FRIOS</h2>
+          <button class="btn btn-light">Ver todos</button>
+        </div>
+      </section>
+    
+
+
+
     </main>
     <hr>
     <footer class="footer">

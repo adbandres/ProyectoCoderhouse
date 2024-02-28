@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../css/estilo.css">
+    <meta name="description" content="Aca podras ordenar tus deliciosos postres, contamos con dos opciones de despacho: retiro en tienda y delivery">
+    <meta name="keywords" content="Postres, cheesecakes, galletas, tortas, brownies, helados, cupcakes ">
+    <link rel="shortcut icon" href="../images/logo_favicon.png">
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <title>DOCE</title>
 </head>
@@ -21,30 +24,18 @@
               <div class="collapse navbar-collapse" id="collapsibleNavbar">
                 <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="nosotros.html">Nosotros</a>
+                    <a class="nav-link" aria-current="page" href="./nosotros.html">Nosotros</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" href="order_online.html">Order Online</a>
-                    <!-- WORK IN PROGRESS -->
-                    <!-- <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Retiro en Tienda</a></li>
-                        <li><a class="dropdown-item" href="#">Delivery</a></li>
-                      </ul> -->
+                    <a class="nav-link" href="./order_online.html">Order Online</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" href="catalogo.html">
+                    <a class="nav-link" href="./catalogo.html">
                       Catálogo
                     </a>
-                    <!-- WORK IN PROGRESS -->
-                    <!-- <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Cheesecakes</a></li>
-                      <li><a class="dropdown-item" href="#">Tortas</a></li>
-                      <li><a class="dropdown-item" href="#">Cookies & Brownies</a></li>
-                      <li><a class="dropdown-item" href="#">Helados & Postres Frios</a></li>
-                    </ul> -->
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" href="contacto.html">Contacto</a>
+                    <a class="nav-link" href="contacto.html">Contacto</a>
                   </li>
                 </ul>
                 <div class="d-flex">
@@ -57,11 +48,53 @@
 </header>
 
     <main>
-        <h2>Selecciona un tipo de entrega</h2>
-        <input type="submit" value="RETIRO EN TIENDA">
-        <input type="reset" value="DELIVERY">
+      <section class="col-12 col-sm-12 my-5 order_online">
+        <div class="row my-5 py-5">
+          <div class="col-12 col-md-6 card_s3">
+            <div class="titulo_seccion3">
+              <img
+                class="imagen_seccion3"
+                src="../images/retiro_tienda.svg"
+                alt="retiro_tienda"
+              />
+              <h3>RETIRO EN TIENDA</h3>
+            </div>
+            <div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus delectus quibusdam accusamus suscipit itaque a
+                explicabo similique veritatis optio incidunt.
+              </p>
+            </div>
+            <div>
+              <a class="btn btn-light" href="./pages/order_online.html"
+                >RESERVAR</a
+              >
+            </div>
+          </div>
+          <div class="col-12 col-md-6 card_s3">
+            <div class="titulo_seccion3">
+              <img
+                class="imagen_seccion3"
+                src="../images/delivery.svg"
+                alt="delivery"
+              />
+              <h3>DELIVERY</h3>
+            </div>
+            <div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus delectus quibusdam accusamus suscipit itaque a
+                explicabo similique veritatis optio incidunt.
+              </p>
+            </div>
+            <div>
+              <a class="btn btn-light" href="./pages/order_online.html">PEDIR</a>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
-    <hr>
     <footer class="footer">
       <div class="row">
         <div class="col-2">
