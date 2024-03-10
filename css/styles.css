@@ -1,6 +1,7 @@
 .footer {
   background-color: #F0D6E3;
   min-height: 100px;
+  padding: 1rem;
 }
 
 .icon_media {
@@ -19,12 +20,6 @@
   display: flex;
   flex-wrap: inherit;
   align-items: center;
-  justify-content: space-around;
-}
-
-.navbar-brand {
-  font-size: 18px;
-  line-height: 20px;
 }
 
 @media (min-width: 768px) {
@@ -36,8 +31,8 @@
 }
 .nav-link {
   color: #FFFFFF !important;
-  font-size: 20px !important;
-  font-family: Arial, Helvetica, sans-serif !important;
+  font-size: 32px !important;
+  font-family: "kopitha", Arial, Helvetica, sans-serif !important;
 }
 .nav-link a {
   text-decoration: none;
@@ -58,6 +53,34 @@
 
 .navbar-toggler {
   border-color: #48194F !important;
+}
+
+.boton {
+  border: 1px solid #C6B5D8 !important;
+  background-color: #C6B5D8 !important;
+  margin-top: 1rem;
+  color: #FFFFFF !important;
+  font-weight: bold !important;
+  width: 150px;
+}
+
+.boton:hover {
+  border: 1px solid #9657A2 !important;
+  background-color: #9657A2 !important;
+}
+
+.boton_secundario {
+  border: 1px solid #F0D6E3 !important;
+  background-color: #F0D6E3 !important;
+  margin-top: 1rem;
+  color: #FFFFFF !important;
+  font-weight: bold !important;
+  width: 100px;
+}
+
+.boton_secundario:hover {
+  border: 1px solid #EE8FA5 !important;
+  background-color: #EE8FA5 !important;
 }
 
 header {
@@ -83,6 +106,33 @@ header {
   color: #FFFFFF;
 }
 
+.seccion4_nosotros {
+  background-color: #9657A2;
+  text-align: center;
+}
+
+.seccion4_nosotros_titulo {
+  color: #F0D6E3;
+}
+
+.seccion1_order_online {
+  background-color: #9657A2;
+  width: 100%;
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: center;
+  padding: 34px;
+}
+
+.titulo_order_online {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #FFFFFF;
+}
+
 .card_order {
   width: 297px;
   display: flex;
@@ -92,8 +142,22 @@ header {
   text-align: center;
 }
 
-.order_online {
-  height: 600px;
+.seccion1_catalogo {
+  background-color: #9657A2;
+  width: 100%;
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: center;
+  padding: 34px;
+}
+
+.titulo_catalogo {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #FFFFFF;
 }
 
 .img_catalogo {
@@ -117,8 +181,35 @@ header {
   padding: 5rem;
 }
 
+@media (max-width: 768px) {
+  .order_nombre {
+    order: 1;
+  }
+  .orden_producto {
+    order: 2;
+  }
+}
 .contacto {
   height: 600px;
+}
+
+.seccion1_contacto {
+  background-color: #9657A2;
+  width: 100%;
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: center;
+  padding: 34px;
+  margin-bottom: 50px;
+}
+
+.titulo_contacto {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #FFFFFF;
 }
 
 * {
@@ -140,23 +231,31 @@ main {
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "kopitha", Arial, Helvetica, sans-serif !important;
+  overflow-x: hidden;
+  font-size: 20px;
+}
+
+p {
+  font-size: 20px;
+}
+
+h1 {
+  font-family: "klopers", Arial, Helvetica, sans-serif !important;
 }
 
 h2 {
-  font-family: "Instrument Serif", serif;
+  font-family: "klopers", Arial, Helvetica, sans-serif !important;
 }
 
-.img_logo {
-  text-align: center;
-}
-
-.carrito-usuario {
-  text-align: end;
+h4 {
+  font-family: "klopers", Arial, Helvetica, sans-serif !important;
+  color: #9657A2 !important;
+  padding-bottom: 2rem;
 }
 
 .imagen_principal {
-  background-image: url(../images/principal_4.jpg);
+  background-image: url(../images/torta_arandanos_pagina_principal.png);
   background-size: cover;
   background-position: center;
   background-repeat: repeat;
@@ -240,6 +339,19 @@ h2 {
   line-height: 1.2;
   font-style: italic;
   color: #FFFFFF;
+}
+
+@font-face {
+  font-family: "kopitha";
+  src: url("../fonts/Kopitha-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "klopers";
+  src: url("../fonts/Klopers.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
 }
 
 /*# sourceMappingURL=styles.css.map */

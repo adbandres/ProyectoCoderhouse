@@ -1,3 +1,19 @@
+.seccion1_order_online {
+    background-color: map-get($paletaDeColores, violetaMedio);
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: center;
+    padding: 34px;
+}
+.titulo_order_online {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: map-get($paletaDeColores, blanco);
+}
 .card_order {
     width: 297px;
     display: flex;
@@ -5,7 +21,4 @@
     justify-content: space-between;
     align-items: center;
     text-align: center
-}
-.order_online {
-    height: 600px;
 }

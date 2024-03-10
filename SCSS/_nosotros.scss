@@ -14,3 +14,12 @@ font-weight: 500;
 line-height: 1.2;
 color: map-get($paletaDeColores, blanco);
 }
+
+.seccion4_nosotros {
+    background-color: map-get($paletaDeColores , violetaMedio );
+    text-align: center;
+}
+
+.seccion4_nosotros_titulo {
+    color: map-get($paletaDeColores , rosaClaro );
+}

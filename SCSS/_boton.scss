@@ -1,0 +1,27 @@
+.boton {
+    border: 1px solid #C6B5D8  !important;
+    background-color: map-get($paletaDeColores , violetaClaro ) !important;
+    margin-top: 1rem;
+    color: map-get($paletaDeColores , blanco ) !important;
+    font-weight: bold !important;
+    width: 150px;
+}
+
+.boton:hover {
+    border: 1px solid #9657A2  !important;
+    background-color: map-get($paletaDeColores , violetaMedio )  !important;
+}
+
+.boton_secundario {
+    border: 1px solid #F0D6E3  !important;
+    background-color: map-get($paletaDeColores , rosaClaro ) !important;
+    margin-top: 1rem;
+    color: map-get($paletaDeColores , blanco ) !important;
+    font-weight: bold !important;
+    width: 100px;
+}
+
+.boton_secundario:hover {
+    border: 1px solid #EE8FA5  !important;
+    background-color: map-get($paletaDeColores , rosaMedio ) !important;
+}

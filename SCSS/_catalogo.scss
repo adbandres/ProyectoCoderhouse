@@ -2,6 +2,22 @@
     width: $width;
     height: $height;
 }
+.seccion1_catalogo {
+    background-color: map-get($paletaDeColores, violetaMedio);
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: center;
+    padding: 34px;
+}
+.titulo_catalogo {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: map-get($paletaDeColores, blanco);
+}
 .img_catalogo {
     @include sizes(300px, 150px)
 }
@@ -17,4 +33,13 @@
 .seccion_productos {
     min-height: 300px;
     padding: 5rem;
+}
+
+@media (max-width: 768px) {
+    .order_nombre {
+        order: 1;
+    }
+    .orden_producto {
+        order: 2;
+    }
 }
