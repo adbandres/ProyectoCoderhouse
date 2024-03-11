@@ -142,6 +142,21 @@ header {
   text-align: center;
 }
 
+iframe {
+  height: 390px;
+  border: 0;
+}
+
+@media (max-width: 767px) {
+  iframe {
+    width: 100%;
+  }
+}
+@media (min-width: 768px) {
+  iframe {
+    width: 600px;
+  }
+}
 .seccion1_catalogo {
   background-color: #9657A2;
   width: 100%;

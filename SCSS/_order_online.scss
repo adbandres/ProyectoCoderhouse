@@ -22,3 +22,22 @@
     align-items: center;
     text-align: center
 }
+
+
+iframe {
+    height: 390px;
+    border: 0;
+  }
+
+  @media (max-width: 767px) {
+    iframe {
+      width: 100%;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    iframe {
+      width: 600px;
+    }
+  }
+  
